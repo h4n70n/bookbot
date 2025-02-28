@@ -24,7 +24,8 @@ def main():
 
     #loop through the sorted list and print the key and value
     for letter, count in sorted_letter_counts:
-        print(f"The '{letter}' was found {count} times.")
+        #print(f"The '{letter}' was found {count} times.")
+        print(f"{letter}: {count}")
 
     #Footer for the output
     print()
